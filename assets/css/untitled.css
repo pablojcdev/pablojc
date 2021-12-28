@@ -1,0 +1,102 @@
+.background {
+  background: url("https://i.ibb.co/C76spxM/sapphire-dark.png");
+  height: 100vh;
+  min-height: 600px;
+  /*background-size: cover;*/
+  /*overflow: hidden;*/
+  position: relative;
+  z-index: 0;
+  background-position: center;
+  margin: 0px;
+  background-repeat: no-repeat;
+}
+
+:root {
+  --height-corners: 150px;
+}
+
+.left-top {
+  height: var(--height-corners);
+  width: auto;
+  left: 4px;
+  top: 4px;
+  position: absolute;
+}
+
+.left-bottom {
+  height: var(--height-corners);
+  width: auto;
+  left: 4px;
+  bottom: 4px;
+  position: absolute;
+}
+
+.right-top {
+  height: var(--height-corners);
+  width: auto;
+  right: 4px;
+  top: 4px;
+  position: absolute;
+}
+
+.right-bottom {
+  height: var(--height-corners);
+  width: auto;
+  right: 4px;
+  bottom: 4px;
+  position: absolute;
+}
+
+.tittle {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  padding-top: 32vh;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 0.45em;
+  margin: 0px;
+}
+
+.sub-tittle {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 36px;
+  position: relative;
+}
+
+.introduction {
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.introduction-normal {
+  font-family: Raleway, sans-serif;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  min-width: 200px;
+}
+
+.introduction-numero {
+  font-family: Arial;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  min-width: 200px;
+  }
+
+.icon {
+  display: inline-block;
+  color: #ffffff;
+  margin: 0 10px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+}
+
