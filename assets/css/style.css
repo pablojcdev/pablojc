@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+}
+
+.main-background {
+  background: url("https://i.ibb.co/C76spxM/sapphire-dark.png");
+  height: 100vh;
+  min-height: 600px;
+  background-size: cover;
+  /*overflow: hidden;*/
+  position: relative;
+  z-index: 0;
+  background-position: center;
+  margin: 0px;
+  background-repeat: no-repeat;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  position: absolute;
+}
+
+.left-top {
+  left: 4px;
+  top: 4px;
+}
+
+.left-bottom {
+  left: 4px;
+  bottom: 4px;
+}
+
+.right-top {
+  right: 4px;
+  top: 4px;
+}
+
+.right-bottom {
+  right: 4px;
+  bottom: 4px;
+}
+
+.main-text {
+  font-family: Raleway, sans-serif;
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-tittle {
+  padding-top: 32vh;
+  font-size: 110px;
+  line-height: 0.45em;
+  margin: 0px;
+}
+
+.main-sub-tittle {
+  font-size: 36px;
+}
+
+.main-introduction {
+  padding-top: 5vh;
+  font-size: 22px;
+}
+
+.main-introduction-numero {
+  font-family: Arial;
+  font-size: 22px;
+}
+
+.social-icons {
+  text-align: center;
+  min-width: 200px;
+}
+
+.icon {
+  display: inline-block;
+  color: #ffffff;
+  margin: 0 10px;
+  width: 38px;
+  height: 38px;
+  margin: 0px 20px 0px 20px;
+}
+
+
+
