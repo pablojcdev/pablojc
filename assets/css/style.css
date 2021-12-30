@@ -18,27 +18,30 @@ body {
 img {
   height: 150px;
   width: auto;
+}
+
+.main-img-left-top {
+  left: 4px;
+  top: 4px;
   position: absolute;
 }
 
-.left-top {
-  left: 4px;
-  top: 4px;
-}
-
-.left-bottom {
+.main-img-left-bottom {
   left: 4px;
   bottom: 4px;
+  position: absolute;
 }
 
-.right-top {
+.main-img-right-top {
   right: 4px;
   top: 4px;
+  position: absolute;
 }
 
-.right-bottom {
+.main-img-right-bottom {
   right: 4px;
   bottom: 4px;
+  position: absolute;
 }
 
 .main-text {
@@ -69,19 +72,14 @@ img {
   font-size: 22px;
 }
 
-.social-icons {
+.main-social-icons {
   text-align: center;
-  min-width: 200px;
+  padding-top: 90px;
 }
 
-.icon {
+.main-social-icon {
   display: inline-block;
-  color: #ffffff;
-  margin: 0 10px;
   width: 38px;
   height: 38px;
   margin: 0px 20px 0px 20px;
 }
-
-
-
